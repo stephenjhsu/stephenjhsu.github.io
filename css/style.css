@@ -38,18 +38,7 @@ h3{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /*box-shadow: 1px 1px 25px #000000; */
-}
-/*#social ul {
- overflow: auto;
- width: 100%;
- text-align: center;
-}
- 
-#social ul li {
- list-style-type: none;
- float: left;
-}*/
+
  
 #social a i {
  background: #fff;
@@ -73,33 +62,7 @@ h3{
  background: #000;
  color: #fff;
 }
-/*#social .fa-facebook {
- background:#3b5998
-} 
-#social .fa-linkedin {
- background:#007bb6
-}
-#social .fa-github {
- background:#000
-}
-#social .fa-instagram {
- background:#4A779E;
-}
-#social .fa-soundcloud {
-  background: #F64112;
-}
-#social .fa-spotify {
-  background: #23D05F;
-}
-#social .fa-envelope-o {
-  background: #FBBC05;
-}
-#social .fa-medium {
-  background: #12B075;
-}
-#social .fa-file-text {
-  background: #3498db;
-}*/
+
 /* CONTAINERS
 -------------------------------------------------*/
 
