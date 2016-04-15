@@ -32,8 +32,8 @@ h3{
 
 .avatar {
   margin-top: 1%;
-  width: 300px;
-  height: 300px; 
+  width: 200px;
+  height: 200px; 
   border-radius: 120%; 
   display: block;
   margin-left: auto;
@@ -299,11 +299,4 @@ span.the-btn {
     to { background-position: 100% 0; }
 }
 
-.ship {
-  width: 560px;
-  height: 400px;
-  background-image: url(ship.png);
-  background-position: 0px 0px; 
-  background-repeat: repeat-x;
-  animation: move 40s linear infinite;
-  z-index: -1;
+
