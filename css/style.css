@@ -4,7 +4,7 @@ body{
 */
 background-image: url("../mcesch.jpg"); 
 /*background-color: ##3498db
-*/background-size: 100% 100%; 
+*/background-size: 110% 110%; 
 
 }
 
@@ -34,7 +34,7 @@ h3{
   margin-top: 1%;
   width: 200px;
   height: 200px; 
-  border-radius: 100%; 
+  border-radius: 120%; 
   display: block;
   margin-left: auto;
   margin-right: auto;
