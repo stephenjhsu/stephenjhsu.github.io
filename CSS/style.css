@@ -331,6 +331,7 @@ span.the-btn {
 
 
 /*BACKGROUND ANIMATIONS*/
+/*
 @keyframes move {
     from { background-position: 0 0;  }
     to { background-position: 100% 0; }
@@ -344,3 +345,4 @@ span.the-btn {
   background-repeat: repeat-x;
   animation: move 40s linear infinite;
   z-index: -1;
+*/
