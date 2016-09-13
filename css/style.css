@@ -69,7 +69,7 @@ h3{
 -------------------------------------------------*/
 
 #container {
-    width: 100%;
+    width: 100vh;
     height: 100vh; 
     position: relative;
     overflow: hidden;
