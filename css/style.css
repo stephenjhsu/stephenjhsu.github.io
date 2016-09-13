@@ -35,10 +35,11 @@ h3{
   width: 200px;
   height: 200px; 
   /*border-radius: 100%;*/
-  background-position: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background-size: cover;
+  background-position: center center;
 }
  
 #social a i {
