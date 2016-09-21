@@ -30,6 +30,17 @@ h3{
   color:#e67e22;
 }
 
+.crop{
+    position: absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto; 
+    height: auto;
+    width: auto;
+}
+
 .avatar {
   margin-top: auto%;
   width: 200px;
