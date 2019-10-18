@@ -333,7 +333,7 @@ title: Homepage
                                     <h5>Darrell Goodman <span>- CEO colorlib</span></h5>
                                 </div>
                                 <!-- Quote Icon -->
-                                <div class="quote-icon"><img src="img/core-img/quote.png" alt=""></div>
+                                <div class="quote-icon"><img src="/assets/img/core-img/quote.png" alt=""></div>
                             </div>
                         </div>
 
@@ -359,7 +359,7 @@ title: Homepage
                                     <h5>Darrell Goodman <span>- CEO colorlib</span></h5>
                                 </div>
                                 <!-- Quote Icon -->
-                                <div class="quote-icon"><img src="img/core-img/quote.png" alt=""></div>
+                                <div class="quote-icon"><img src="/assets/img/core-img/quote.png" alt=""></div>
                             </div>
                         </div>
 
@@ -385,7 +385,7 @@ title: Homepage
                                     <h5>Darrell Goodman <span>- CEO colorlib</span></h5>
                                 </div>
                                 <!-- Quote Icon -->
-                                <div class="quote-icon"><img src="img/core-img/quote.png" alt=""></div>
+                                <div class="quote-icon"><img src="/assets/img/core-img/quote.png" alt=""></div>
                             </div>
                         </div>
 
@@ -453,7 +453,7 @@ title: Homepage
 
             <!-- Single Blog Post -->
             <div class="col-12 col-lg-4">
-                <div class="single-blog-post bg-img mb-80" style="background-image: url(./img/bg-img/8.jpg);">
+                <div class="single-blog-post bg-img mb-80" style="background-image: url(/assets/img/bg-img/8.jpg);">
                     <!-- Post Content -->
                     <div class="post-content">
                         <span class="post-date"><span>23</span> August, 2018</span>
@@ -466,7 +466,7 @@ title: Homepage
 
             <!-- Single Blog Post -->
             <div class="col-12 col-lg-4">
-                <div class="single-blog-post bg-img mb-80" style="background-image: url(./img/bg-img/9.jpg);">
+                <div class="single-blog-post bg-img mb-80" style="background-image: url(/assets/img/bg-img/9.jpg);">
                     <!-- Post Content -->
                     <div class="post-content">
                         <span class="post-date"><span>13</span> December, 2018</span>
@@ -479,7 +479,7 @@ title: Homepage
 
             <!-- Single Blog Post -->
             <div class="col-12 col-lg-4">
-                <div class="single-blog-post bg-img mb-80" style="background-image: url(./img/bg-img/10.jpg);">
+                <div class="single-blog-post bg-img mb-80" style="background-image: url(/assets/img/bg-img/10.jpg);">
                     <!-- Post Content -->
                     <div class="post-content">
                         <span class="post-date"><span>08</span> July, 2018</span>
