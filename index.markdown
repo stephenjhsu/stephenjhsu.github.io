@@ -4,7 +4,7 @@
 
 layout: default
 
-title: My website
+title: Homepage
 ---
 
 <!-- ***** Welcome Area Start ***** -->
