@@ -1,0 +1,102 @@
+---
+layout: default
+---
+
+<!-- ***** Breadcrumb Area Start ***** -->
+<div class="breadcrumb-area">
+    <div class="container h-100">
+        <div class="row h-100 align-items-end">
+            <div class="col-12">
+                <div class="breadcumb--con">
+                    <h2 class="title">{{ page.title }}</h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+                            <li class="breadcrumb-item"><a href="/blog">Blog</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Curve -->
+    <div class="breadcrumb-bg-curve">
+        <img src="/assets/img/core-img/curve-5.png" alt="">
+    </div>
+</div>
+<!-- ***** Breadcrumb Area End ***** -->
+
+<!-- ***** Blog Details Area Start ***** -->
+<section class="blog-details-area section-padding-80">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="blog-details-content">
+                    <!-- Post Details Text -->
+                    <div class="post-details-text">
+
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-10">
+                                <div class="post-content text-center mb-50">
+                                	<h2>{{ page.title }}</h2>
+                                    <a href="#" class="post-date">{{ page.date | date: '%B %d, %Y' }}</a>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <img class="mb-50" src="/assets/img/bg-img/14.jpg" alt="">
+                            </div>
+                            <div class="col-12 col-lg-10">
+                                {{ content}}
+
+                                <!-- Related News Area -->
+                                <div class="related-news-area">
+                                    <h2 class="mb-4">Relatest News</h2>
+                                    <div class="row">
+                                        <!-- Single Blog Post -->
+
+                                        {% if page.previous %}
+                                        <div class="col-12 col-lg-6">
+                                            <div class="single-blog-post bg-img mb-50">
+                                                <!-- Post Content -->
+                                                <div class="post-content">
+                                                    <span class="post-date">{{ page.previous.date | date: '%B %d, %Y' }}</span>
+                                                    <a href="{{page.previous.url}}" class="post-title">{{ page.previous.title}}</a>
+                                                    <p>{{page.previous.description}}</p>
+                                                    <a href="{{page.previous.url}}" class="read-more-btn">Read More <i class="arrow_carrot-2right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {% endif%}
+
+                                        <!-- Single Blog Post -->
+
+                                        {% if page.next %}
+                                        <div class="col-12 col-lg-6">
+                                            <div class="single-blog-post bg-img mb-50">
+                                                <!-- Post Content -->
+                                                <div class="post-content">
+                                                    <span class="post-date">{{ page.next.date | date: '%B %d, %Y' }}</span>
+                                                    <a href="{{ page.next.url }}" class="post-title">{{page.next.title}}</a>
+                                                    <p>{{page.next.description}}</p>
+                                                    <a href="{{ page.next.url }}" class="read-more-btn">Read More <i class="arrow_carrot-2right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {% endif %}
+
+                                    </div>
+                                </div>
+                                <!-- End Related News -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Blog Details Area End ***** -->
+
+{% include newsletter.html %}}
