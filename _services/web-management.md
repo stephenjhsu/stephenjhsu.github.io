@@ -8,8 +8,6 @@ image_thumbnail: /assets/img/bg-img/4.jpg
 
 tag: web-design
 
-next: web-management
-previous: web-analytics
 ---
 
 <!-- <div class="col-12 col-lg-10">

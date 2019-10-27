@@ -1,95 +1,74 @@
 ---
-
+layout: default
 comments: this is layout for individual services we are going to provide
 ---
 
 
-<!DOCTYPE html>
-<html lang="en">
-
-{% include header.html%}
-
-<body>
-    <!-- Preloader -->
-    {% include preloader.html %}
-
-    {% include navbar.html %}
-
-    <!-- ***** Breadcrumb Area Start ***** -->
-    <div class="breadcrumb-area">
-        <div class="container h-100">
-            <div class="row h-100 align-items-end">
-                <div class="col-12">
-                    <div class="breadcumb--con">
-                        <h2 class="title">{{page.title}}</h2>
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="/"><i class="fa fa-home"></i> Home</a></li>
-                                <li class="breadcrumb-item"><a href="/services">Services</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">{{page.title}}</li>
-                            </ol>
-                        </nav>
-                    </div>
+<!-- ***** Breadcrumb Area Start ***** -->
+<div class="breadcrumb-area">
+    <div class="container h-100">
+        <div class="row h-100 align-items-end">
+            <div class="col-12">
+                <div class="breadcumb--con">
+                    <h2 class="title">{{page.title}}</h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+                            <li class="breadcrumb-item"><a href="/services">Services</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">{{page.title}}</li>
+                        </ol>
+                    </nav>
                 </div>
             </div>
         </div>
-
-        <!-- Background Curve -->
-        <div class="breadcrumb-bg-curve">
-            <img src="/assets/img/core-img/curve-5.png" alt="">
-        </div>
     </div>
-    <!-- ***** Breadcrumb Area End ***** -->
 
-    <!-- ***** Portfolio Single Area Start ***** -->
-    <section class="uza-portfolio-single-area section-padding-80">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="blog-details-content">
-                        <!-- Post Details Text -->
-                        <div class="post-details-text">
+    <!-- Background Curve -->
+    <div class="breadcrumb-bg-curve">
+        <img src="/assets/img/core-img/curve-5.png" alt="">
+    </div>
+</div>
+<!-- ***** Breadcrumb Area End ***** -->
 
-                            <div class="row justify-content-center">
-                                {{ content }}
-                            </div>
+<!-- ***** Portfolio Single Area Start ***** -->
+<section class="uza-portfolio-single-area section-padding-80">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="blog-details-content">
+                    <!-- Post Details Text -->
+                    <div class="post-details-text">
+
+                        <div class="row justify-content-center">
+                            {{ content }}
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="portfolio-pager mt-80 d-flex align-items-center justify-content-between">
-
-
-                        {% if page.previous %}
-                        <a href="{{page.previous.url}}"><i class="arrow_left"></i> Previous</a>
-                        {% else%}
-                        <a href="{{page.previous.url}}"><i class="arrow_left"></i> </a>
-                        {% endif %}
-
-                        <a href="/services">Back to Services</a>
+        <div class="row">
+            <div class="col-12">
+                <div class="portfolio-pager mt-80 d-flex align-items-center justify-content-between">
 
 
-                        {% if page.next %}
-                        <a href="{{page.next.url}}">Next <i class="arrow_right"></i></a>
-                        {% else%}
-                        <a href="#"><i class="arrow_right"></i></a>
-                        {% endif %}
-                    </div>
+                    {% if page.previous %}
+                    <a href="{{page.previous.url}}"><i class="arrow_left"></i> Previous</a>
+                    {% else%}
+                    <a href="{{page.previous.url}}"><i class="arrow_left"></i> </a>
+                    {% endif %}
+
+                    <a href="/services">Back to Services</a>
+
+
+                    {% if page.next %}
+                    <a href="{{page.next.url}}">Next <i class="arrow_right"></i></a>
+                    {% else%}
+                    <a href="#"><i class="arrow_right"></i></a>
+                    {% endif %}
                 </div>
             </div>
         </div>
-    </section>
-    <!-- ***** Portfolio Single Area End ***** -->
-
-    {% include newsletter.html %}
-
-    {% include footer.html %}
-
-    {% include jscripts.html %}}
-
-</body>
-
-</html>
+    </div>
+</section>
+<!-- ***** Portfolio Single Area End ***** -->
