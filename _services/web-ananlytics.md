@@ -4,12 +4,10 @@ layout: single_services
 
 description: this is content about Analytics in thumb nail of services page
 
-image_thumbnail: /assets/img/bg-img/2.jpg
+image_thumbnail: /assets/img/bg-img/4.jpg
 
 tag: web-design
 
-next: web-management
-previous: web-analytics
 ---
 
 <!-- <div class="col-12 col-lg-10">

@@ -1,12 +1,12 @@
 ---
-title: Web Development
+title: Plotly
 layout: single_services
 
-description: this is content about web development in thumb nail of services page
+description: this is content about Plotly page in thumb nail of services page
 
 image_thumbnail: /assets/img/bg-img/4.jpg
 
-tag: web-design
+tag: dashboards
 
 ---
 
