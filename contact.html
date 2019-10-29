@@ -38,38 +38,56 @@ permalink: /contact
                     <div class="contact-heading mb-50">
                         <h4>Thank you for your interest. <br>Please fill out the form below to inquire about our work in Digital.</h4>
                     </div>
-                    <form action="#" method="post">
+
+                    <form name="contact" id="contact" enctype="text/plain" action="https://docs.google.com/forms/d/1B8iIlYiXoSSCoZKayFDaT3RimYE0z_FkbX_tZX8SirM/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control mb-30" name="full-name" placeholder="Name">
+                                    <input type="text" class="form-control mb-30" name="entry.878180673" id="entry.878180673" placeholder="Name">
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <input type="email" class="form-control mb-30" name="email" placeholder="Email">
+                                    <input type="text" class="form-control mb-30" name="entry.117980208" id="entry.117980208" placeholder="Email">
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control mb-30" name="full-name" placeholder="Phone">
+                                    <input type="text" class="form-control mb-30" name="entry.204085965" id="entry.204085965" placeholder="Phone">
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control mb-30" name="email" placeholder="Organization">
+                                    <input type="text" class="form-control mb-30" name="entry.336791644" id="entry.336791644" placeholder="Organization">
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-group">
-                                    <textarea class="form-control mb-30" name="message" rows="8" cols="80" placeholder="Message"></textarea>
+                                    <textarea class="form-control mb-30" name="entry.1960100179" id="entry.1960100179" rows="8" cols="80" placeholder="Message"></textarea>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn uza-btn btn-3 mt-15">Contact Us</button>
+                                <button class="btn uza-btn btn-3 mt-15" type="submit">Contact Us</button>
                             </div>
                         </div>
+
+
                     </form>
+
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+                    <script src="assets/js/jquery.min.js"></script>
+                    <script type="text/javascript">var submitted=false;</script>
+                    <script type="text/javascript">
+                        $('#contact').on('submit', function(e) {
+                        $('#contact *').fadeOut(10);
+                        $('#contact').prepend('Your contact information was submitted. We will reach out to you shortly.');
+                        });
+                    </script>
+
+
+
                 </div>
             </div>
 

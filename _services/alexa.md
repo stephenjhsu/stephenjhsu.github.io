@@ -4,7 +4,7 @@ layout: single_services
 
 description: this is content about Alexa in thumb nail of services page
 
-image_thumbnail: /assets/img/bg-img/4.jpg
+image_thumbnail: /assets/img/bg-img/2.jpg
 
 tag: IoT
 
