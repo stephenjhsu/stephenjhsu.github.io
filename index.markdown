@@ -422,14 +422,17 @@ title: Homepage
                 <div class="col-12 col-lg-8">
                     <div class="cta-content mb-80">
                         <h2>Interested in working with us?</h2>
-                        <h6>Hit the button below or give us a call!</h6>
+                        <h6>Give us a call or email to speak to us now!</h6>
                     </div>
                 </div>
 
                 <div class="col-12 col-lg-4">
                     <div class="cta-content mb-80">
                         <div class="call-now-btn">
-                            <a href="#"><span>Call us now:</span> (+65) 1234 5678</a>
+                            <a><span>Call us now:</span> (408) 893-8808</a>
+                        </div>
+                        <div class="call-now-btn">
+                            <a><span>Email us now:</span> stephen@inspireai.io </a>
                         </div>
                     </div>
                 </div>
