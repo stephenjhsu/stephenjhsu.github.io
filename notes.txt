@@ -1,0 +1,17 @@
+Fixing ban from gmail:
+
+https://support.google.com/mail/answer/81126#authentication
+
+# Postmaster
+https://support.google.com/mail/answer/6227174
+
+# Verification page
+https://postmaster.google.com/u/0/managedomains?pli=1
+
+https://support.google.com/a/answer/6248925
+
+
+
+mail.inspireai.io/mail/
+mail.inspireai.io/admin/
+SPF
