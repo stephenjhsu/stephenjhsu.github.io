@@ -34,26 +34,18 @@ collections:
     services:
       output: true
 
-# defaults:
-#   - scope:
-#       path: ""
-#       type: "services"
-#     values:
-#       layout: "single_services"
-#   - scope:
-#       path: ""
-#       type: "posts"
-#     values:
-#       layout: "post"
-#   - scope:
-#       path: ""
-#     values:
-#       layout: "default"
+
+paginate_path: "/blog/:num/"
+paginate: 6
 
 # Build settings
 # theme: minima
-# plugins:
+plugins:
+    # - jekyll-paginate-v2
+    - jekyll-paginate
 #   - jekyll-feed
+
+# permalink: pretty
 
 # Exclude from processing.
 # The following items will not be processed, by default.
