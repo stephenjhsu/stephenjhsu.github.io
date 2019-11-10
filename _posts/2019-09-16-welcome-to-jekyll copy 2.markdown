@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 
-description: This is Jekyll and how easy it is to use
+description: This is Jekyll and how easy it is to use. AAaaaaaaaaaaaaaaa
 
 image_header: /assets/img/bg-img/13.jpg
 
