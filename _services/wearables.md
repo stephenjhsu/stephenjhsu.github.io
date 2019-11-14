@@ -1,12 +1,12 @@
 ---
-title: Microsoft BI
+title: Wearables
 layout: single_services
 
-description: this is content about microsoft BI page in thumb nail of services page
+description: this is content about fitbit in thumb nail of services page
 
 image_thumbnail: /assets/img/bg-img/4.jpg
 
-tag: dashboards
+tag: IoT
 
 ---
 

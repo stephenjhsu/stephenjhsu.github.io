@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Collect Your Own Fitbit Heart Data"
 
 description: This is Jekyll and how easy it is to use
 

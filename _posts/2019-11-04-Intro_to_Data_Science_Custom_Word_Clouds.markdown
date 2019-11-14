@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Introduction to Data Science: Custom Word Clouds"
 
-description: This is Jekyll and how easy it is to use. AAaaaaaaaaaaaaaaa
+description: This is Jekyll and how easy it is to use
 
 image_header: /assets/img/bg-img/13.jpg
 

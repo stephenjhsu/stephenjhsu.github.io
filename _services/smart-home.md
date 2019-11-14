@@ -1,8 +1,8 @@
 ---
-title: Fitbit
+title: Smart Home Devices
 layout: single_services
 
-description: this is content about fitbit in thumb nail of services page
+description: this is content about Alexa in thumb nail of services page
 
 image_thumbnail: /assets/img/bg-img/4.jpg
 

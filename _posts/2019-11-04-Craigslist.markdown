@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Webscraping Craigslist: Speeding Up the Housing Search"
 
 description: This is Jekyll and how easy it is to use
 
-image_header: /assets/img/bg-img/12.jpg
+image_header: /assets/img/bg-img/13.jpg
 
 pagination: 
   enabled: true

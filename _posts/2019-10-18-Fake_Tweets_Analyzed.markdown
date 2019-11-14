@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Russian Fake Tweets Analyzed"
 
 description: This is Jekyll and how easy it is to use
 
-image_header: /assets/img/bg-img/14.jpg
+image_header: /assets/img/bg-img/12.jpg
 
 pagination: 
   enabled: true

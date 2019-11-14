@@ -1,12 +1,12 @@
 ---
-title: Alexa
+title: Tableau & Microsoft Power BI
 layout: single_services
 
-description: this is content about Alexa in thumb nail of services page
+description: this is content about web management page in thumb nail of services page
 
 image_thumbnail: /assets/img/bg-img/4.jpg
 
-tag: IoT
+tag: dashboards
 
 ---
 
