@@ -19,10 +19,10 @@ pagination:
 <p>With the&nbsp;fervor&nbsp;of the Presidential election being skewed by Russian probing&rsquo;s as well as the notorious Facebook / Cambridge Analytics scandal still topping daily&nbsp;domestic&nbsp;headlines, it became clear to us that &ldquo;fake news&rdquo; and Russian users are still prevalent, yet vague concepts. Who are these fake users disguising as? How are&nbsp;these&nbsp;fake users fooling people? How are they influencing people? Therefore, with our backgrounds in natural language processing, data visualization, and interest in the combination of technology and politics, it was only natural to examine the fake Russian user&rsquo;s Tweet data with Python and Plotly. In particular, we analyzed:</p>
 <p>Users and Tweets Overview</p>
 <ol>
-<li>1. Who these fake users pretend to be &mdash; names and descriptions</li>
-<li>2. When the fake accounts were being created</li>
-<li>3. When the fake accounts were most active in tweeting</li>
-<li>4. What topics the accounts were covering</li>
+<li>Who these fake users pretend to be &mdash; names and descriptions</li>
+<li>When the fake accounts were being created</li>
+<li>When the fake accounts were most active in tweeting</li>
+<li>What topics the accounts were covering</li>
 </ol>
 
 <p>Case Study of Most Successful (or Unsuccessful) Users</p>
