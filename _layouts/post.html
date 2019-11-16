@@ -44,11 +44,13 @@ layout: default
                                     <a href="#" class="post-date">{{ page.date | date: '%B %d, %Y' }}</a>
                                 </div>
                             </div>
+                            <!--
                             <div class="col-12">
                                 <img class="mb-50" src="{{page.image_header}}" alt="">
                             </div>
+                        -->
                             <div class="col-12 col-lg-10">
-                                {{content | markdownify}}
+                                {{content}}
 
                                 <!-- Related News Area -->
                                 <div class="related-news-area">
@@ -96,5 +98,3 @@ layout: default
     </div>
 </section>
 <!-- ***** Blog Details Area End ***** -->
-
-{% include newsletter.html %}}

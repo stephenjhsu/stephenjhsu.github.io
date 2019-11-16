@@ -4,7 +4,7 @@ title:  "Russian Fake Tweets Visualized"
 
 description: Visualizing 3000+ Fake Russian Accounts with over 200,000+ Tweets             
 
-
+image_header: /assets/img/bg-img/13.jpg
 
 pagination: 
   enabled: true
