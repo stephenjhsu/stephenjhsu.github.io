@@ -1534,7 +1534,7 @@ input:focus {
       font-size: 24px; } }
   .blog-details-content p {
     font-size: 18px;
-    color: #a6a6a6;
+    color: #000000;
     font-weight: 400; }
     @media only screen and (max-width: 767px) {
       .blog-details-content p {
