@@ -8,7 +8,7 @@ layout: default
         <div class="row h-100 align-items-end">
             <div class="col-12">
                 <div class="breadcumb--con">
-                    <h2 class="title">{{ page.title }}</h2>
+                    <h2 class="title"></h2>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="/"><i class="fa fa-home"></i> Home</a></li>
@@ -48,11 +48,11 @@ layout: default
                                 <img class="mb-50" src="{{page.image_header}}" alt="">
                             </div>
                             <div class="col-12 col-lg-10">
-                                {{ content}}
+                                {{content | markdownify}}
 
                                 <!-- Related News Area -->
                                 <div class="related-news-area">
-                                    <h2 class="mb-4">Relatest News</h2>
+                                    <h2 class="mb-4">Related Blogs</h2>
                                     <div class="row">
                                         <!-- Single Blog Post -->
                                         {% if page.next %}

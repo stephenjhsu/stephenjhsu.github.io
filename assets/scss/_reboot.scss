@@ -37,7 +37,8 @@ a:hover {
 }
 
 li {
-    list-style: none;
+    display: list-item;
+  list-style-position: inside;
 }
 
 p {
