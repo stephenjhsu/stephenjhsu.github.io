@@ -33,16 +33,18 @@ github_username:  jekyll
 collections:
     services:
       output: true
+    blog:
+      output: true
 
 
-paginate_path: "/blog/:num/"
-paginate: 6
+# paginate_path: "/blog/:num/"
+# paginate: 6
 
 # Build settings
 # theme: minima
-plugins:
+# plugins:
     # - jekyll-paginate-v2
-    - jekyll-paginate
+    # - jekyll-paginate
 #   - jekyll-feed
 
 # permalink: pretty
