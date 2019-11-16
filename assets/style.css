@@ -43,7 +43,7 @@ Last Update: Dec 31, 2018
   $dark: #000000; [Dark Color]
   $border: #ebebeb; [Border Color]
   $hover: #1583e9; [Hover Color]
-  $secondary: #000000; [Secondary Color]
+  $secondary: #a6a6a6; [Secondary Color]
 
   ---------------------------------------------
   [Font Family: 'HK Grotesk']
@@ -93,6 +93,7 @@ a:hover {
   font-weight: 600; }
 
 li {
+
 }
 
 p {
