@@ -85,9 +85,10 @@ h6 {
   background-origin:content-box;
   
   /* some extra styles*/
-  padding:0 20px;
+  padding:20px 30px;
   text-align:justify;
   font-family:calibri,arial,sans-serif;
+  font-size: 17px;
 }
 
 a,
