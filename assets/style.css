@@ -78,6 +78,18 @@ h6 {
   line-height: 1.4;
   font-weight: 600; }
 
+.my-pre{
+  line-height:1.2em;
+  background:linear-gradient(180deg,#eee 0,#eee 1.2em,#eee 0);
+  background-size:2.4em;
+  background-origin:content-box;
+  
+  /* some extra styles*/
+  padding:0 20px;
+  text-align:justify;
+  font-family:calibri,arial,sans-serif;
+}
+
 a,
 a:active,
 a:focus,
