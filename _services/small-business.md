@@ -17,7 +17,9 @@ tag: dashboards
     </div>
 </div> -->
 <div class="col-12">
-    <img class="mb-50" src="/assets/img/bg-img/14.jpg" alt="">
+    <center>
+    <img class="mb-50" src="/assets/img/services/small_bus.jpeg" alt="">
+</center>
 </div>
 <div class="col-12 col-lg-10">
 
