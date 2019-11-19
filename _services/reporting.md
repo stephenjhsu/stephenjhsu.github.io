@@ -6,7 +6,7 @@ description: this is content about web management page in thumb nail of services
 
 image_thumbnail: /assets/img/services/resized/dashboard.jpeg
 
-tag: Dashboards
+tag: dashboards
 
 ---
 

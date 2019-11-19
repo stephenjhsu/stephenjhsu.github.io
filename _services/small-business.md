@@ -6,7 +6,7 @@ description: this is content about microsoft BI page in thumb nail of services p
 
 image_thumbnail: /assets/img/services/resized/small_bus.jpeg
 
-tag: dashboards
+tag: dashboards, web-design
 
 ---
 

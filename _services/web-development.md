@@ -4,7 +4,7 @@ layout: single_services
 
 description: this is content about web development in thumb nail of services page
 
-image_thumbnail: /assets/img/services/resized/webdev.jpg
+image_thumbnail: /assets/img/bg-img/4.jpg
 
 tag: web-design
 
