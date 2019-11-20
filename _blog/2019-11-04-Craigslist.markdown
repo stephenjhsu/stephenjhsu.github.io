@@ -50,12 +50,12 @@ So breaking down the big goal, my plan of attack is to:
 
 
 
-<p> 1. Open up a remote controlled page using Selenium </p>
-<p> 2. Scrape a single page of Craigslist housing to get the titles </p>
-<p> 3. Scrape it further to get the links to seller’s posts </p>
-<p> 4. Move to another location without rewriting anything </p>
-<p> 5. Repeat this process until all locations are scraped </p>
-<p> 6. Bring it all together to a nice function </p>
+<p> &nbsp; &nbsp; &nbsp; 1. Open up a remote controlled page using Selenium </p>
+<p> &nbsp; &nbsp; &nbsp; 2. Scrape a single page of Craigslist housing to get the titles </p>
+<p> &nbsp; &nbsp; &nbsp; 3. Scrape it further to get the links to seller’s posts </p>
+<p> &nbsp; &nbsp; &nbsp; 4. Move to another location without rewriting anything </p>
+<p> &nbsp; &nbsp; &nbsp; 5. Repeat this process until all locations are scraped </p>
+<p> &nbsp; &nbsp; &nbsp; 6. Bring it all together to a nice function </p>
 
 
 
@@ -75,6 +75,7 @@ pd.options.display.max_rows = 999
 </p>
 
 
+<p>&nbsp;</p>
 
 
 <p><strong>Step 2: Open up a webpage with Selenium</strong></p>
@@ -83,7 +84,6 @@ pd.options.display.max_rows = 999
 “Selenium is a tool that lets us automate actions within a browser as if we were clicking or typing as a human. This lets us login and do anything else a human can do when using the browser. Perhaps most importantly, it allows us to scrape data from webpages that generate HTML using JavaScript executing within the browse” — Professor Terence Parr at the University of San Francisco
 </p>
 
-<p>&nbsp;</p>
 
 <p>
 To initialize the Selenium tools, we need to call it from the path from which the Chromedriver (or geckodriver) is located. (Link to download Selenium)
@@ -95,12 +95,8 @@ driver = webdriver.Chrome(executable_path="/Users/shsu/Downloads/chromedriver")
 </code></pre>
 </p>
 
-<p>&nbsp;</p>
-
 <p>From there, we can use the driver to open up certain webpages, for example:</p>
 
-
-<p>&nbsp;</p>
 <p>
 <pre class="my-pre"><code>
 driver.get('http://google.com')
@@ -127,9 +123,13 @@ This should open up a new browser on your Chrome which can then be automated wit
 As mentioned earlier, the first goal in our grand scheme of things is to scrape a single page of Craigslist. Let’s open up a single page, physically enter in some filters (parameters), and look at the content (to the image on the left). For my budget, I was looking for a place less than $900 and wanted the most recent posts to show up first. When I look at the hyperlink created by this query, I get this:
 </p>
 
+<p>&nbsp;</p>
+
 <p>
 “https://sfbay.craigslist.org/search/roo?query=<b>glen+park</b>&sort=<b>date</b>&max_price=<b>900</b>&availabilityMode=0”
 </p>
+
+<p>&nbsp;</p>
 
 <p>
 What do ya know? It looks like the headers in the url include exactly the parameters I entered, also known as a query string. Let’s start with that for our code.
@@ -179,8 +179,6 @@ Now we’ve got all the important information from the headlines of posts! The n
 
 
 <p><strong>Step 4: Scrape the link to the individual post</strong></p>
-
-<p>&nbsp;</p>
 
 
 <p>
@@ -325,6 +323,9 @@ display(craig_df)
 Just like that, you too can now save 40 minutes of your day searching Craigslist for housing to finally rent a sofa in a converted living room!
 </p>
 
+<p>&nbsp;</p>
+
+
 ![](/assets/img/blog/craigslist/craigslist8.jpeg)
 <center><i style="color:#a6a6a6">What the code on the website looks like</i></center>
 
@@ -335,6 +336,9 @@ So in conclusion, we learned that while scraping appears difficult and time cons
 <p>
 P.S. A lot of posts are spammers that copy real posts and give a generic message to “Please send me your contact number and I will communicate with you as soon as possible.”
 </p>
+
+
+<p>&nbsp;</p>
 
 
 <p>References:</p>
