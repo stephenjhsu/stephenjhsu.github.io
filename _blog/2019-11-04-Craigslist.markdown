@@ -81,12 +81,12 @@ pd.options.display.max_rows = 999
 <p><strong>Step 2: Open up a webpage with Selenium</strong></p>
 
 <p>
-“Selenium is a tool that lets us automate actions within a browser as if we were clicking or typing as a human. This lets us login and do anything else a human can do when using the browser. Perhaps most importantly, it allows us to scrape data from webpages that generate HTML using JavaScript executing within the browse” — Professor Terence Parr at the University of San Francisco
+“<u><a href="https://selenium.dev/">Selenium</a></u> is a tool that lets us automate actions within a browser as if we were clicking or typing as a human. This lets us login and do anything else a human can do when using the browser. Perhaps most importantly, it allows us to scrape data from webpages that generate HTML using JavaScript executing within the browse” — Professor Terence Parr at the University of San Francisco
 </p>
 
 
 <p>
-To initialize the Selenium tools, we need to call it from the path from which the Chromedriver (or geckodriver) is located. (Link to download Selenium)
+To initialize the Selenium tools, we need to call it from the path from which the Chromedriver (or geckodriver) is located. <u><a href="https://selenium.dev/downloads/">(Link to download Selenium)</a></u>
 </p>
 
 <p>
