@@ -2,7 +2,7 @@
 layout: post
 title:  "Webscraping Craigslist: Speeding Up the Housing Search"
 
-description: Reduce Craigslist Search Time from 2+ Hours to 15 Minutes
+description: Reduce Search Time from 2+ Hours to 15 Minutes
 
 image_header: /assets/img/bg-img/13.jpg
 
@@ -31,13 +31,13 @@ TLDR: I made a script to scrape Craigslist with locations and pricing as paramet
 
 <p><strong>Step 0: Know your enemy</strong></p>
 
-![SF Map](/assets/img/blog/craigslist/craigslist2.jpeg)
+![Interface](/assets/img/blog/craigslist/craigslist2.jpeg)
 <center><i style="color:#a6a6a6">What the Craigslist interface looks like</i></center>
 
 
 <p>&nbsp;</p>
 
-![Python](/assets/img/blog/craigslist/craigslist3.jpeg)
+![Desired Output](/assets/img/blog/craigslist/craigslist3.jpeg)
 <center><i style="color:#a6a6a6">What I wanted the results to look like</i></center>
 
 <p>
@@ -113,7 +113,7 @@ This should open up a new browser on your Chrome which can then be automated wit
 
 <p><strong>Step 3: Scrape post headlines from a page</strong></p>
 
-![Python](/assets/img/blog/craigslist/craigslist4.jpeg)
+![Query](/assets/img/blog/craigslist/craigslist4.jpeg)
 <center><i style="color:#a6a6a6">A general query for my housing limitations</i></center>
 
 <p>&nbsp;</p>
@@ -154,7 +154,7 @@ At this point, you might be wondering why I chose Chromedriver instead of other 
 <p>By clicking those three keys simultaneously, you can view the HTML code behind any webpage.</p>
 
 
-![Python](/assets/img/blog/craigslist/craigslist5.jpeg)
+![Source](/assets/img/blog/craigslist/craigslist5.jpeg)
 <center><i style="color:#a6a6a6">Inside the developer source with the tag information we need</i></center>
 
 <p>&nbsp;</p>
@@ -190,13 +190,13 @@ Solution: use our web-scraping tools to look for a title and then generalize it 
 </p>
 
 
-![Python](/assets/img/blog/craigslist/craigslist6.jpeg)
+![](/assets/img/blog/craigslist/craigslist6.jpeg)
 <center><i style="color:#a6a6a6">What we see on the website</i></center>
 
 
 <p>&nbsp;</p>
 
-![Python](/assets/img/blog/craigslist/craigslist7.jpeg)
+![](/assets/img/blog/craigslist/craigslist7.jpeg)
 <center><i style="color:#a6a6a6">What the code on the website looks like</i></center>
 
 <p>&nbsp;</p>
