@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Webscraping Craigslist: Speeding Up the Housing Search"
+title:  "Webscraping Craigslist: Speeding Up Searches"
 
 description: Reduce Search Time from 2+ Hours to 15 Minutes
 
