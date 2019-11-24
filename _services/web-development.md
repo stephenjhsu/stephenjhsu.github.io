@@ -52,6 +52,19 @@ tag: web-design
 
 <br>
 
+<div class="row">
+
+  <div class="column" style="padding:10px; width:400px; height:400px">
+    <a href="https://inspireai.io"><img src="/assets/img/core-img/full_logos/og_black.png" width="80" height="80" alt="Snow" style="width:100%"></a>
+    <center><i style="color:#a6a6a6">InspireAI</i></center>
+  </div>
+
+  <div class="column" style="padding:10px; width:400px; height:400px">
+    <img src="/assets/img/services/services_img/webdev_dash.PNG" width="80" height="80" alt="Forest" style="width:100%">
+    <center><i style="color:#a6a6a6">Google Analytics</i></center>
+  </div>
+</div>
+
 
 <p><b>For more information:</b></p>
 
