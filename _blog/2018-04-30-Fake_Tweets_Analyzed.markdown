@@ -57,7 +57,7 @@ Tweet Subjectivity
 
 <center>Figure 3: First and Last &ldquo;Names&rdquo; of the Users</center>
 <p>&nbsp;</p>
-<p>If we look at the face value of our fake users, we can see that there are three distinct categories of fake account names. The first combination consists of American sounding first names such as &ldquo;Chris,&rdquo; &ldquo;Rick,&rdquo; or &ldquo;Jeremy&rdquo; combined with American sounding last names such as &ldquo;Green,&rdquo; &ldquo;Roberts,&rdquo; or &ldquo;Cox.&rdquo; The second combination consists of formal sounding news sources such as &ldquo;New [York Times]&rdquo; or &ldquo;Atlanta Today.&rdquo; Finally, the third combination consists of purely foreign names. From this, we can see that it&rsquo;s often difficult to tell which accounts are fake based off the name alone as it could be any average Joe, news site, or unrecognizable name.</p>
+<p>If we look at the face value of our fake users, we can see that there are three distinct categories of fake account names. The first combination consists of American sounding first names such as &ldquo;Chris,&rdquo; &ldquo;Rick,&rdquo; or &ldquo;Jeremy&rdquo; combined with American sounding last names such as &ldquo;Green,&rdquo; &ldquo;Roberts,&rdquo; or &ldquo;Cox.&rdquo; The second combination consists of formal sounding news sources such as &ldquo;New York Times &rdquo; or &ldquo;Atlanta Today.&rdquo; Finally, the third combination consists of purely foreign names. From this, we can see that it&rsquo;s often difficult to tell which accounts are fake based off the name alone as it could be any average Joe, news site, or unrecognizable name.</p>
 <p><strong>What are their profile descriptions?</strong></p>
 
 

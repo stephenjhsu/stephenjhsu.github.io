@@ -12,6 +12,8 @@ pagination:
 
 ![Craigslist](/assets/img/blog/craigslist/craiglist.jpeg)
 
+<p>&nbsp;</p>
+
 <p>
 I was asked a while ago how I was able to find housing in San Francisco. It was one year ago before I found my current sofa-in-a-converted-living-room that I started my search for housing, and it quickly became an overwhelming experience trying to find any kind of rent for less than an arm and a leg. I devoted more and more time to online searching and expanded my search from the Financial District to several regions of San Francisco including the notorious Tenderloins. The search slowly consumed me to the point where I would wake up and spend at least an hour everyday clicking on Craigslist seeing familiar places with a worn out face.
 </p>
@@ -40,6 +42,8 @@ TLDR: I made a script to scrape Craigslist with locations and pricing as paramet
 ![Desired Output](/assets/img/blog/craigslist/craigslist3.jpeg)
 <center><i style="color:#a6a6a6">What I wanted the results to look like</i></center>
 
+<p>&nbsp;</p>
+
 <p>
 Often times, it’s easy to get ahead of oneself and dive right into the problem. One thing that significantly helped my coding skills was to start off with smaller goals and building it up into a big, grand goal. My big goal is to get the headline of each post as well as it’s link to the individual page. I then want to move from one region of San Francisco (say Glen Park) to another one (say Balboa Park). Looking at the Craigslist interface, it appears as though each post has a title and a blue hyperlink that would be useful to show up beside the description.
 </p>
@@ -58,6 +62,7 @@ So breaking down the big goal, my plan of attack is to:
 <p> &nbsp; &nbsp; &nbsp; 6. Bring it all together to a nice function </p>
 
 
+<p>&nbsp;</p>
 
 <p><strong>Step 1: Bring in the webscraping tools</strong></p>
 
@@ -109,7 +114,7 @@ driver.get('http://google.com')
 This should open up a new browser on your Chrome which can then be automated with code. Try it out with any website of your choice!
 </p>
 
-
+<p>&nbsp;</p>
 
 <p><strong>Step 3: Scrape post headlines from a page</strong></p>
 
@@ -125,9 +130,13 @@ As mentioned earlier, the first goal in our grand scheme of things is to scrape 
 
 <p>&nbsp;</p>
 
+
 <p>
+<pre class="my-pre"><code>
 “https://sfbay.craigslist.org/search/roo?query=<b>glen+park</b>&sort=<b>date</b>&max_price=<b>900</b>&availabilityMode=0”
+</code></pre>
 </p>
+
 
 <p>&nbsp;</p>
 
@@ -143,6 +152,7 @@ driver.get(url)
 </code></pre>
 </p>
 
+<p>&nbsp;</p>
 
 <p>
 At this point, you might be wondering why I chose Chromedriver instead of other web drivers. The main reason is because of the developer tools which can be opened with these three keys:

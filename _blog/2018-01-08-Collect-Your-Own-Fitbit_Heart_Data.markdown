@@ -50,6 +50,8 @@ After that, you’ll be redirected to a page looking like this:
 ![Registered Application](/assets/img/blog/fitbit/fitbit2.jpeg)
 <center><i style="color:#a6a6a6">Registered Application</i></center>
 
+<p>&nbsp;</p>
+
 <p>
 <strong>Step 2:</strong> The API
 </p>
@@ -116,6 +118,7 @@ today = str(datetime.datetime.now().strftime("%Y%m%d"))
 </code></pre>
 </p>
 
+<p>&nbsp;</p>
 
 <p><strong>Step 3:</strong> Acquire the data</p>
 
