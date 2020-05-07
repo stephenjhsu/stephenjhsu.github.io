@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Visualizing COVID Market Trends"
+title:  "More Unemployment = Recovering Stock Market? The Behavior Behind the Market Visualized"
 
-description: More Unemployment = Better Markets? The Behavior Behind the Market Visualized
+description: 
 
 image_header: /assets/img/bg-img/12.jpg
 
