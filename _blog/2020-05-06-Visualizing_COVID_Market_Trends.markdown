@@ -35,7 +35,7 @@ pagination:
 <p>At this point, does more unemployment predict a better stock market? It seems like perhaps doing the complete opposite of intuition will lead to the best portfolio. While there are many factors when considering stock prices, there is no doubt that COVID-19 has been, by far, the largest factor in recent stock market prices. And with stocks rising, it seems that the translation between daily life and stock prices has never been more off.</p>
 
 
-<p>So what's going on? I propose the key concept lies in that <strong>stock prices are based on future outlooks</strong>. The underlying cause for this mistranslation is that uncertainty and pessimism drop stocks whereas positive outlook leads to higher current day prices. The question then arises how exactly do we measure something as fantastical as "positive" outlook? Instead of going to typical hard quantitative math with models, I propose measuring the recent stock trends with nothing more than high school math - specifically just <strong>derivatives - otherwise known as the rate of change of recent COVID-19 cases. </strong></p>
+<p>So what's going on? I propose the key concept lies in that <strong>stock prices are based on future outlooks</strong>. The underlying cause for this mistranslation is that uncertainty and pessimism drop stock prices whereas positive outlook leads to higher current day prices. The question then arises how exactly do we measure something as fantastical as "positive" outlook? Instead of going to typical hard quantitative math with models, I propose measuring the recent stock trends with nothing more than high school math - specifically just <strong>derivatives - otherwise known as the rate of change of recent COVID-19 cases. </strong></p>
 
 
 <p>&nbsp;</p>
