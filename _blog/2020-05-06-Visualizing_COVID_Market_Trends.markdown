@@ -16,7 +16,7 @@ pagination:
 
 <p>&nbsp;</p>
 
-<p> The U.S. unemployment rate is predicted to be 15 to 20% in April </p>
+<p> The U.S. unemployment rate is predicted to be 16 to 20% for the month of April </p>
 
 <p>&nbsp;</p>
 
