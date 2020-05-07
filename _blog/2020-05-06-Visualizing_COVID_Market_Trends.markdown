@@ -170,6 +170,11 @@ pagination:
 
 <p>&nbsp;</p>
 
+<p>Also, if you'd like to read more blogs list this or my coding tutorials
+ you can check those out on my <u><a href="https://medium.com/@shsu14">Medium</a></u> </p>
+
+
+<p>&nbsp;</p>
 
 <p><strong>Data sources:</strong></p>
 
