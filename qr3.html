@@ -1,0 +1,181 @@
+---
+title: QR
+permalink: /qr3.html
+layout: default
+---
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="A demo of Stripe client-only Checkout" />
+
+
+    <!-- Load Stripe.js on your website. -->
+    <script src="https://js.stripe.com/v3/"></script>
+  </head>
+
+<!-- ***** Breadcrumb Area Start ***** -->
+<div class="breadcrumb-area">
+    <div class="container h-100">
+        <div class="row h-100 align-items-end">
+            <div class="col-12">
+                <div class="breadcumb--con">
+                    <h2 class="title">About</h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">QR</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Curve -->
+    <div class="breadcrumb-bg-curve">
+        <img src="/assets/img/core-img/curve-5.png" alt="">
+    </div>
+</div>
+<!-- ***** Breadcrumb Area End ***** -->
+
+
+<section class="uza-about-us-area row2">
+  <div class="container">
+    <div class="row align-items-center">
+
+
+
+
+      <div class="col-12 col-lg-6">
+          <div class="single-blog-post bg-img mb-80">
+            <div class="post-content">
+              
+              <h2 style="text-align: center;"> Branded QR </h2>
+
+              
+
+              <br>
+
+              <button
+              style="background-color:#6772E5;color:#FFF;padding:14px 12px;border:0;border-radius:4px;font-size:1em;width:100%"
+              id="checkout-button-price_1HYfWtKJLWHEYMt8LxwcSVHw"
+              role="link"
+              type="button">
+              Pay with Stripe
+            </button>
+
+            <br>
+            <br>
+
+            <script
+    src="https://www.paypal.com/sdk/js?client-id=AdDDVC53A9hhHPNmSxOM7G8TTi2hGWmus0SrnsIGybiCnYnMdscI60dDdAiR0vzW4TmYVRtD2G-xX36a"> // Required. Replace SB_CLIENT_ID with your sandbox client ID.
+              </script>
+
+              <div id="paypal-button-container"></div>
+
+            </div>
+          </div>
+      </div>
+
+
+
+
+
+      <div class="col-12 col-lg-6">
+          <div class="single-blog-post bg-img mb-80">
+            <div class="post-content">
+            
+              <h2 style="text-align: center;"> QR & Analytics </h2> 
+              
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+
+              <h3 style="text-align: center;"> Coming Soon </h3>
+
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<script>
+  paypal.Buttons({
+    createOrder: function(data, actions) {
+      // This function sets up the details of the transaction, including the amount and line item details.
+      return actions.order.create({
+        purchase_units: [{
+          amount: {
+            value: '5.00'
+          }
+        }]
+      });
+    },
+    onApprove: function(data, actions) {
+      // This function captures the funds from the transaction.
+      return actions.order.capture().then(function(details) {
+        // This function shows a transaction success message to your buyer.
+        actions.redirect('http://inspireai.io/success');
+        //alert('Transaction completed by ' + details.payer.name.given_name);
+      });
+    },
+    onCancel: function (data) {
+    // Show a cancel page, or return to cart
+    actions.redirect('http://inspireai.io/cancel');
+    }
+    //onError: function (err) {
+    // Show an error page here, when an error occurs
+    //}
+
+  }).render('#paypal-button-container');
+  //This function displays Smart Payment Buttons on your web page.
+</script>
+
+
+<script>
+(function() {
+  var stripe = Stripe('pk_test_OboIBwjKlkoKsrZeKJqUCSC8');
+
+  var checkoutButton = document.getElementById('checkout-button-price_1HYfWtKJLWHEYMt8LxwcSVHw');
+  checkoutButton.addEventListener('click', function () {
+    // When the customer clicks on the button, redirect
+    // them to Checkout.
+    stripe.redirectToCheckout({
+      lineItems: [{price: 'price_1HYfWtKJLWHEYMt8LxwcSVHw', quantity: 1}],
+      mode: 'payment',
+      // Do not rely on the redirect to the successUrl for fulfilling
+      // purchases, customers may not always reach the success_url after
+      // a successful payment.
+      // Instead use one of the strategies described in
+      // https://stripe.com/docs/payments/checkout/fulfill-orders
+      successUrl: 'https://inspireai.io/success',
+      cancelUrl: 'https://inspireai.io/canceled',
+    })
+    .then(function (result) {
+      if (result.error) {
+        // If `redirectToCheckout` fails due to a browser or network
+        // error, display the localized error message to your customer.
+        var displayError = document.getElementById('error-message');
+        displayError.textContent = result.error.message;
+      }
+    });
+  });
+})();
+</script>
