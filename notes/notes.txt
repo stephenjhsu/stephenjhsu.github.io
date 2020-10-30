@@ -15,3 +15,8 @@ https://support.google.com/a/answer/6248925
 mail.inspireai.io/mail/
 mail.inspireai.io/admin/
 SPF
+
+
+#use _services to edit the services section
+
+#to create a new section, create a new .html in the main director and add the navbar
