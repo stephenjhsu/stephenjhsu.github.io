@@ -25,7 +25,7 @@ tag: IoT
 
 <div class="col-12">
     <center>
-    <img class="mb-50" src="/assets/img/services/qr_analytics.jpg" alt="">
+    <img class="mb-50" src="/assets/img/services/qr_analytics2.png" alt="">
 </center>
 </div>
 
